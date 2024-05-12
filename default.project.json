@@ -1,0 +1,7 @@
+{
+	"name": "minimal-interface-tools",
+	"tree": {
+		"$path": "src",
+		"Packages": { "$path": "Packages" }
+	}
+}

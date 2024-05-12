@@ -1,0 +1,7 @@
+/.vscode
+/Packages
+/out
+
+*.lock
+
+sourcemap.json
