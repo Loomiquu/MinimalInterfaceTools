@@ -1,6 +1,5 @@
-
 export type InterfaceTools = {
-	Plugin: Plugin
+	Plugin: Plugin,
 }
 
 export type WidgetParams = {
@@ -14,7 +13,12 @@ export type WidgetParams = {
 	Color: Color3,
 
 	--- The Style of the rendered Widget (Custom will be added in a future release)
-	WidgetStyle: "Default" | "Custom"
+	WidgetStyle: "Default" | "Custom",
+}
+
+export type WidgetArgs = {
+
+	WidgetParams: WidgetParams,
 }
 
 return {}
